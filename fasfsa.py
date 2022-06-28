@@ -1,6 +1,6 @@
-karar=input("ucgen mi dortgen mi girmek istiyorsunuz?")
+karar=input("ücgen mi dortgen mi girmek istiyorsunuz?")
 
-if (karar=="ucgen"):
+if karar=="3":
     print("3 deger girin")
     a=int(input())
     b=int(input())
@@ -13,7 +13,7 @@ if (karar=="ucgen"):
         print("bu bir ikizkenar ücgen")
 
         
-elif (karar=="dortgen"):
+elif karar=="4":
     print("4 deger girin")
     a=int(input())
     b=int(input())
